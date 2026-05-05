@@ -3,9 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <title>Atún</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #0f172a, #1e293b);
+            color: white;
+        }
+        header {
+            background: #1e40af;
+            padding: 30px;
+            text-align: center;
+        }
+        nav {
+            background: #1e3a8a;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #93c5fd;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: white;
+        }
+        section {
+            padding: 40px;
+        }
+        .card {
+            background: #0f172a;
+            padding: 20px;
+            border-radius: 12px;
+            margin-top: 20px;
+        }
+        img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+        }
+        footer {
+            background: #020617;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
 </head>
 <body>
-    <h1>🐟 Página de Atún</h1>
-    <p>Bienvenido a mi sitio web</p>
+
+<header>
+    <h1>🐟 Mundo del Atún</h1>
+    <p>Descubre todo sobre este increíble pez</p>
+</header>
+
+<nav>
+    <a href="#info">Información</a>
+    <a href="#beneficios">Beneficios</a>
+</nav>
+
+<section id="info">
+    <h2>¿Qué es el atún?</h2>
+    <div class="card">
+        <p>El atún es un pez marino muy consumido en todo el mundo. Es rico en proteínas y muy saludable.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Thunnus_albacares.png">
+    </div>
+</section>
+
+<section id="beneficios">
+    <h2>Beneficios</h2>
+    <div class="card">
+        <ul>
+            <li>💪 Alto en proteínas</li>
+            <li>❤️ Bueno para el corazón</li>
+            <li>🧠 Rico en omega 3</li>
+        </ul>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Página creada por ti 🚀</p>
+</footer>
+
 </body>
 </html>
